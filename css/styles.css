@@ -438,4 +438,71 @@ margin-left: 50px;
  }
  
 
+}/* CSS pour la version desktop par défaut */
+
+/* Ajout d'une media query pour les écrans de 768px de large et moins (tablettes et téléphones) */
+@media screen and (max-width: 768px) {
+   .main-header {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .logo {
+       font-size: 1.5rem;
+       margin-bottom: 10px;
+   }
+
+   .main-nav ul.menu-list {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .main-nav ul.menu-list li.menu-item {
+       margin-bottom: 10px;
+   }
+
+   /* Section de la photo de mise en avant */
+   .photo-misao, .text-misao {
+       flex-direction: column;
+       text-align: center;
+   }
+
+   /* Grille des recettes : faire en sorte que chaque image prenne toute la largeur en mobile */
+   .tous-recettes {
+       display: grid;
+       grid-template-columns: 1fr; /* Une colonne */
+       gap: 10px;
+   }
+
+   .recettes1, .recettes2, .recettes3, .recettes4, .recettes5, .recettes6, .recettes7, .recettes8, .recettes9 {
+       width: 100%; /* Chaque recette occupe 100% de la largeur */
+   }
+
+   /* Footer en colonne pour mobile */
+   .footer1 {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .footer-column {
+       margin-bottom: 20px;
+   }
+
+   /* Ajustement de la section contact */
+   .contact-item {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .contact-item img {
+       width: 50px;
+       height: 50px;
+       margin-bottom: 10px;
+   }
+
+   .soratra-facebook, .soratra-linkedin, .soratra-whatsapp, .soratra-acceuil, .soratra-email {
+       text-align: center;
+   }
 }
