@@ -1,0 +1,441 @@
+ /* Réinitialisation des marges et des paddings */
+* {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: medium;
+   margin: 0;
+   padding: 0;
+   color: #333;
+}
+
+/* Style du header */
+.main-header {
+   position: fixed;
+   width: 100%;
+   background-color: #2C6E49; /* Vert feuille */
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* Style pour le logo */
+.logo {
+   color: white;
+   font-size: 24px;
+}
+
+/* Navigation */
+.main-nav .menu-list {  
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   margin-right: 50px;
+   gap: 20px;
+   z-index: 10000;
+}
+
+.main-nav .menu-item {
+   display: inline;
+}
+
+.main-nav .menu-link {
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   display: block;
+}
+
+/* Effet hover */
+.main-nav .menu-link:hover {
+   color: #A8C686; /* Vert clair */
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+/* Section principale avec image */
+.photo-misao {
+   background-image: url('/salades\ et\ pattes.jfif');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 450px;
+   z-index: -2000;
+}
+
+/* Texte de présentation */
+.soratra {
+   text-align: center;
+   margin-top: -200px;
+   font-size: 25px;
+   color: white;
+   background-color: rgba(28, 46, 32, 0.7); /* Overlay vert foncé */
+   padding: 20px;
+   width: 60%;
+   margin-left: 20%;
+}
+
+.saveur {
+   font-style: italic;
+   margin-top: 80px;
+   font-weight: bold;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+}
+
+/* Corps du site */
+.corps {
+   margin-top: 200px;
+   text-align: center;
+}
+
+.reservations {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 1cm;
+   width: 5cm;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -130px;
+   border: 2px solid #2C6E49;
+   background-color: #A8C686;
+   color: #1B4531;
+   text-align: center;
+   line-height: 1cm;
+}
+
+/* Section des recettes */
+.tous-recettes {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   justify-items: center;
+   width: 90%;
+   margin: 50px auto;
+}
+
+.tous-recettes img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   z-index: -9999;
+}
+
+.text-1, .text-2, .text-3, .text-4, .text-5, .text-6, .text-7, .text-8, .text-9 {
+   text-align: center;
+   color: #2C6E49; /* Texte en vert feuille */
+}
+/* Conteneur pour les recettes */
+.tous-recettes {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale */
+   gap: 20px; /* Espace entre les images */
+   justify-items: center; /* Centrer les éléments dans chaque colonne */
+   width: 90%;
+   margin: 50px auto;
+}
+
+/* Images dans les recettes */
+.tous-recettes img {
+   width: 420px;  /* Largeur fixe pour toutes les images */
+   height: 320px; /* Hauteur fixe pour toutes les images */
+   object-fit: cover; /* Remplissage tout en conservant le ratio d'aspect */
+   border-radius: 10px; /* Facultatif : arrondir les coins */
+}
+
+/* Style pour le menu de la semaine */
+.menudelasemaine {
+   background-color: #A8C686; /* Vert clair */
+   width: 1100px;
+   margin-left: 250px;
+   border-radius: 6%;
+   height: auto;
+   text-align: center;
+   padding: 20px;
+   display: flex;
+}
+
+.soratra-menio {
+   font-size: 24px;
+   color: #2C6E49; /* Texte en vert feuille */
+}
+
+.soratra-menio2, .decouvrezvotremenu {
+   color: #1B4531; /* Vert foncé */
+}
+.images-menio{
+   margin-left: 50px;
+ }
+ .soratra-menio .soratra-menio2{
+
+   margin-top: 2850px;
+   margin-left: ;
+   z-index: 1;
+ }
+ .menudelasemaine, .soratra-menio  {
+margin-top: 50px;
+ }
+ .soratra-menio h2 {
+   font-size: 50px;
+   margin-left: 150px;
+   margin-top: 1cm;
+ }
+ .soratra-menio p {
+   font-size: 20px;
+   margin-left: 50px;
+   margin-top: 65px;
+ }
+ .soratra-menio h3 {
+   font-size: 20px;
+   border: 2px solid;
+   background-color: white;
+   width: 5cm;
+   margin-left: 330px;
+   margin-top:  125px;
+   display: flex;
+ }
+ .soratra-50plus h2{
+   display: flex;
+   text-align: center;
+   margin-top: 100px;
+   margin-left: 520px;
+   font-size: 30px;
+ }
+ .image-50plus {
+   margin-top: 50px;
+   display: grid; /* Utilisation de CSS Grid */
+   grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+   gap: 20px; /* Espacement entre les images */
+   margin: 20px; /* Marges autour du conteneur */
+ }
+ 
+ .image-50plus div {
+   text-align: center; /* Centrer les textes sous les images */
+ }
+ 
+ .image-50plus img {
+   width: 420px;  /* Largeur fixe pour toutes les images */
+   height: 320px; /* Hauteur fixe pour toutes les images */
+   object-fit: cover; /* Remplissage tout en conservant le ratio d'aspect */
+   border-radius: 10px; /* Facultatif : arrondir les coins */
+ }
+ .haricot  {
+   margin-left: -50px;
+ }
+ .image-cuisinebio {
+   width: 100%; /* Le conteneur occupe toute la largeur de la page */
+   overflow: hidden; /* Cache les images qui dépassent du conteneur visible */
+}
+
+.photos-bio {
+   display: flex; /* Aligne les images en ligne */
+   transition: transform 0.5s ease-in-out; /* Animation fluide lors du défilement */
+   width: 1800px; /* 12 images x 450px de large */
+   z-index: -1000;
+}
+
+.photo {
+   display: flex; /* Aligne les images dans le conteneur */
+}
+
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {
+   flex: 0 0 450px; /* Chaque image a une largeur fixe de 450px */
+   height: 200px; /* Hauteur fixe pour chaque image */
+   box-sizing: border-box; /* Prend en compte le padding et les bordures */
+   padding: 10px; /* Espacement autour de chaque image */
+   z-index: -100000;
+}
+
+.photo img {
+   width: 100%; /* L'image prend toute la largeur du conteneur */
+   height: 100%; /* L'image prend toute la hauteur du conteneur */
+   object-fit: cover; /* Ajuste l'image pour qu'elle remplisse le conteneur sans déformation */
+   border-radius: 8px; /* Arrondit les coins des images */
+   z-index: -10000;
+}
+
+.pagination {
+   text-align: center; /* Centre les boutons de pagination sous les photos */
+   margin-top: 20px; /* Espace entre les images et les boutons */
+}
+
+.pagination button {
+   height: 15px;
+   width: 15px;
+   background-color: #bbb; /* Couleur de base des points */
+   border-radius: 50%; /* Forme circulaire */
+   margin: 5px; /* Espacement entre chaque point */
+   cursor: pointer; /* Curseur pointer pour les boutons */
+   border: none; /* Pas de bordure */
+}
+
+.pagination button.active {
+   background-color: #333; /* Couleur plus sombre pour le point actif */
+}
+.soratra_100 h2{
+   text-align: center  ;
+   font-style: italic;
+   font-size: 20px;
+   margin-top: 50px;
+}
+.en-savoir-plus p{
+   text-align: center  ;
+   font-style: italic;
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 690px;
+   border: 2px solid;
+   width: 140px;
+   color: red;
+   background-color: white;
+}
+.footer0{
+   background-color: #1b4531a3;
+   width: 100%;
+   height: 300px;
+   margin-top: 60px;
+   align-items: stretch;
+   color: white;
+}
+.contact p{
+   text-align: center;
+   margin-top: -10px;
+}
+.restons p{
+   margin-top: -200px;
+}
+.logo-contact {
+   display: flex; /* Aligner les éléments horizontalement */
+   justify-content: space-around; /* Espacer uniformément */
+   flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
+   margin: 20px 0;
+}
+
+.contact-item {
+   display: flex;
+   flex-direction: column; /* Organiser chaque logo et texte en colonne */
+   align-items: center; /* Centrer les éléments horizontalement */
+   margin: 0 20px; /* Ajouter un espace entre chaque groupe logo/texte */
+}
+
+.logo-contact img {
+   width: 90px; /* Taille des logos */
+   height: auto;
+}
+
+.soratra-facebook,
+.soratra-linkedin,
+.soratra-whatsapp,
+.soratra-acceuil,
+.soratra-email {
+   text-align: center; /* Centrer le texte sous les logos */
+   margin-top: 10px; /* Un petit espace entre l'image et le texte */
+   font-size: 14px; /* Ajuste la taille de la police si nécessaire */
+}
+
+/* Si nécessaire, ajuste les dimensions de chaque logo individuellement */
+.facebook img {
+   width: 55px;
+}
+
+.linkedin img {
+   width: 110px;
+   margin-top: -5px;
+}
+
+.whatsapp img {
+   width: 100px;
+   margin-top: 9px;
+margin-left: 50px;
+}
+
+.acceuil img {
+   width: 60px;
+}
+
+.email img {
+   width: 70px;
+}
+.ligne{
+   border: none;           /* Enlève la bordure par défaut */
+    border-top: 2px solid black; /* Crée une bordure en haut, épaisseur et couleur */
+                /* Largeur de la ligne (ajustable) */
+    margin: 20px auto;      /* Centrer la ligne et ajouter des marges */
+}
+.footer-grid {
+   display: grid; /* Utilisation de CSS Grid pour organiser les colonnes */
+   grid-template-columns: repeat(3, 1fr); /* Trois colonnes de taille égale */
+   gap: 20px; /* Espace entre les colonnes */
+   padding: 20px;
+   background-color: green; /* Couleur de fond du footer */
+   color: white; /* Couleur du texte */
+}
+
+.footer-col {
+   padding: 10px;
+}
+
+.footer-col h3 {
+   margin-bottom: 15px;
+   font-size: 1.3em;
+}
+
+.footer-col p {
+   margin-bottom: 10px; /* Espace entre les paragraphes */
+   line-height: 1.5; /* Améliore la lisibilité du texte */
+}
+/* Footer styles */
+.footer1 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+   gap: 20px; /* Espacement entre les colonnes */
+   background-color:greenyellow; /* Couleur de fond */
+   color: white; /* Couleur du texte */
+   padding: 40px; /* Espacement interne */
+ }
+ 
+ .footer-column {
+   padding: 10px;
+ }
+ 
+ .footer-column h4 {
+   font-size: 18px;
+   margin-bottom: 15px;
+ }
+ 
+ .footer-column p {
+   font-size: 14px;
+   line-height: 1.6;
+   margin-bottom: 10px;
+ }
+ 
+ /* Newsletter styles */
+ .newsletter-column .newsletter-form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .newsletter-form input[type="email"] {
+   padding: 10px;
+   margin-bottom: 10px;
+   font-size: 14px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ .newsletter-form button {
+   padding: 10px;
+   background-color: #007BFF;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .newsletter-form button:hover {
+   background-color: #0056b3;
+ }
+ 
+
+}

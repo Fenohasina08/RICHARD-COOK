@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Richard Cook's</title>
+</head>
+<body>
+    <!-- Header principal avec le logo et le menu de navigation -->
+    <header class="main-header">
+        <div class="logo">Richard Cook's</div>
+        <nav class="main-nav">
+            <ul class="menu-list">
+                <li class="menu-item"><a class="menu-link" href="#accueil">Recettes</a></li>
+                <li class="menu-item"><a class="menu-link" href="#services">Qui sommes-nous</a></li>
+                <li class="menu-item"><a class="menu-link" href="#contact">Idée et formation de recettes</a></li>
+                <li class="menu-item"><a class="menu-link" href="#a-propos">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section de la photo de mise en avant avec le texte -->
+    <div class="photo-misao"></div>
+    <div class="text-misao">
+        <h2 class="soratra">
+            Chez Richard Cook's, votre satisfaction est notre priorité. Rejoignez-nous pour un repas exceptionnel et découvrez pourquoi nos clients reviennent encore et encore.
+        </h2>
+        <p class="saveur">"La saveur est la route qui vous guide vers une vie meilleure"</p>
+    </div>
+
+    <!-- Section principale avec les différentes recettes et contenus -->
+    <section class="corps">
+        <div class="reservations">
+            <p>Réservations</p>
+        </div>
+        <div class="recettes">
+            <h3 class="soratra-recettes">Des recettes de saveur et des <br>actus culinaires</h3>
+        </div>
+        <div class="plusde">
+            <p>Plus de 90 000 recettes faciles et rapides pour vous inspirer en cuisine</p>
+        </div>
+    </section>
+
+    <!-- Section de présentation des recettes sous forme de grille -->
+    <section class="photos-recettes">
+        <div class="tous-recettes">
+            <div class="recettes1">
+                <img src="/images/akondro au vanille.jpg" alt="Recette 1">
+                <p class="text-1">Plus de 90 000 recettes faciles et rapides pour vous inspirer en cuisine</p>
+            </div>
+            <div class="recettes2">
+                <img src="/images/akondro endasina otran snack.jpg" alt="Recette 2">
+                <p class="text-2">Recettes végétariennes</p>
+            </div>
+            <div class="recettes3">
+                <img src="/images/corgettee.jpg" alt="Recette 3">
+                <p class="text-3">Godrogodro savoureuses à base de riz</p>
+            </div>
+            <div class="recettes4">
+                <img src="/images/crevette au fromage.jpg" alt="Recette 4">
+                <p class="text-4">Courgettes farcies légères</p>
+            </div>
+            <div class="recettes5">
+                <img src="/images/crevette grillé.jpg" alt="Recette 5">
+                <p class="text-5">30 idées de soupes froides pour cet été</p>
+            </div>
+            <div class="recettes6">
+                <img src="/images/gâteau mofo.jpg" alt="Recette 6">
+                <p class="text-6">Confiture de mangue</p>
+            </div>
+            <div class="recettes7">
+                <img src="/images/koba hena.jpg" alt="Recette 7">
+                <p class="text-7">Steak de viande</p>
+            </div>
+            <div class="recettes8">
+                <img src="/images/manga purée.jpg" alt="Recette 8">
+                <p class="text-8">30 idées de desserts pour l'été</p>
+            </div>
+            <div class="recettes9">
+                <img src="/images/nem au cookies.jpg" alt="Recette 9">
+                <p class="text-9">Poisson sauce</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section supplémentaire : menu de la semaine -->
+    <section class="menudelasemaine">
+        <div class="images-menio">
+            <img src="/images/trondro endasina sy frite.jpg" alt="Menu de la semaine"   width: 250px; height: 300px;>
+        </div>
+        <div class="soratra-menio">
+            <h2>Votre menu de la semaine</h2>
+        
+            <p>Retrouvez des recettes pour manger équilibré et de saison, en passant peu de temps en cuisine !</p>
+    
+            <h3>Découvez votre menu</h3>
+        </div>
+    </section>
+    <!--50plus de recettes savourantes de madagascar-->
+    <section class="plusde50recettes">
+        <div class="soratra-50plus">
+            <h2>Plus de 50 recettes savourantes de Madagascar</h2>
+        </div>
+        <div class="image-50plus">
+            <div class="50plus1">
+                <img src="/images/nouveau images/23e5c5bc51e0824aed2a135e6d228f23.jpg" alt="Haricot avec viande de boeuf">
+                <p>Haricot avec viande de boeuf</p>
+            </div>
+            <div class="50plus2">
+                <img src="/images/nouveau images/38ea65d53199198ef4c4da3ace2bd7d6.jpg" alt="Haricot avec viande de boeuf">
+                <p>Haricot avec viande de boeuf</p>
+            </div>
+            <div class="50plus3">
+                <img src="/images/nouveau images/5778d5c2e0a6e868ce953801f98158fb.jpg" alt="Plus de plat du riz avec brède">
+                <p>Plus de plat du riz avec brède</p>
+            </div>
+            <div class="50plus4">
+                <img src="/images/nouveau images/bbb3590627b6a1f1183a218f7796f7a4.jpg" alt="Haricot avec viande de boeuf">
+                <p>Haricot avec viande de boeuf</p>
+            </div>
+            <div class="50plus5">
+                <img src="/images/nouveau images/bd76bfd0be423139e29a67d0d9e550be.jpg" alt="Haricot avec viande de boeuf">
+                <p>Haricot avec viande de boeuf</p>
+            </div>
+            <div class="50plus6">
+                <img src="/images/nouveau images/images (34).jpg" alt="Haricot avec viande de boeuf">
+                <p>Haricot avec viande de boeuf</p>
+            </div>
+            <div class="50plus7">
+                <img src="/images/nouveau images/tarte de banane.jpg" alt="Tarte de banane">
+                <p>Tarte de banane</p>
+            </div>
+            <div class="50plus8">
+                <img src="/images/nouveau images/téléchargement (27).jpg" alt="Haricot avec viande de boeuf">
+                <p>Haricot avec viande de boeuf</p>
+            </div>
+            <div class="50plus9">
+                <img src="/images/nouveau images/téléchargement (31).jpg" alt="Haricot avec viande de boeuf">
+                <p class="haricot">Haricot avec viande de boeuf</p>
+            </div>
+        </div>
+        
+        
+    </section>
+    <section class="cuisine-biologique">
+        <div class="cuisinebio">
+            <h2>Cuisine biologique</h2>
+            <p> Découvrez 50 meilleurs de nos recettes précieuses et préférables pour vous régaler au quotidien en toute simplicité.</p>
+        </div>
+        <div class="image-cuisinebio">
+            <!-- Conteneur pour toutes les photos -->
+            <div class="photos-bio">
+                <div class="photo">
+                    <!-- Chaque div contient une image -->
+                    <div class="photo1"><img src="/photo-1504805572947-34fad45aed93.jpeg.jpg" alt="Image 3"></div>
+                    <div class="photo2"><img src="/ocean-car-floating-full-moon-scenery-digital-art-664@0@j-thumb.jpg" alt="Image 2"></div>
+                    <div class="photo3"><img src="/premium_photo-1685086785636-2a1a0e5b591f - Copie.png" alt="Image 4"></div>
+                    <div class="photo4"><img src="/luffy-scar-one-piece-264@3@a-thumb.jpg" alt="Image 1"></div>
+                    <div class="photo5"><img src="/téléchargement.jpg" alt="Image 5"></div>
+                    <div class="photo6"><img src="/images/akondro endasina otran snack.jpg" alt="Image 6"></div>
+                    <div class="photo7"><img src="/images/u.jpg" alt="Image 7"></div>
+                    <div class="photo8"><img src="/images/trondro endasiana sy citron.jpg" alt="Image 8"></div>
+                    <div class="photo9"><img src="/images/sambos.jpg" alt="Image 9"></div>
+                    <div class="photo10"><img src="/images/koba hena.jpg" alt="Image 10"></div>
+                    <div class="photo11"><img src="/images/crevette au fromage.jpg" alt="Image 11"></div>
+                    <div class="photo12"><img src="/images/crevette grillé.jpg" alt="Image 12"></div>
+                </div>
+            </div>
+            <!-- Pagination : les boutons pour naviguer entre les ensembles de photos -->
+            <div class="pagination">
+                <!-- Chaque bouton appelle la fonction JavaScript pour afficher le groupe de photos correspondant -->
+                <button onclick="showPhotos(0)" class="active"></button>
+                <button onclick="showPhotos(1)"></button>
+                <button onclick="showPhotos(2)"></button>
+                <button onclick="showPhotos(3)"></button>
+            </div>
+        </div>
+        
+        
+        </div>
+        
+        </section>
+        <section class="+100types">
+            <div class="soratra_100">
+                <h2> Plus de 100 types de recettes à base du banane 
+                mûr et maïs qui vient de Madagascar. Ces recettes <br> sont purement biologique à base du coco.</h2>
+            </div>
+            <div class="en-savoir-plus">
+                <p> En savoir plus</p>
+            </div>
+        </section>
+        <section class="footer0">
+            <div class="contact">
+                <p class="restons"> RESTONS EN CONTACT</p>
+            </div>
+            <div class="logo-contact">
+                <div class="contact-item">
+                    <div class="facebook">
+                        <img src="/images/îcones_de_facebbokk-removebg-preview.png">
+                    </div>
+                    <div class="soratra-facebook">
+                        <p>Richard cook's</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="linkedin">
+                        <img src="/images/îcones_de_linkedin-removebg-preview.png">
+                    </div>
+                    <div class="soratra-linkedin">
+                        <p>Richard cook's</p>
+                    </div>
+                </div>
+            
+                <div class="contact-item">
+                    <div class="whatsapp">
+                        <img src="/images/îcones_de_whatsapp-removebg-preview.png">
+                    </div>
+                    <div class="soratra-whatsapp">
+                        <p>+261 32 66 210 93</p>
+                        <p>+261 34 05 102 65</p>
+                    </div>
+                </div>
+            
+                <div class="contact-item">
+                    <div class="acceuil">
+                        <img src="/images/accueil.png">
+                    </div>
+                    <div class="soratra-acceuil">
+                        <p>Ovarikely,405</p>
+                        <p>Analalava,101</p>
+                        <p>Antananarivo Madagasikara</p>
+                    </div>
+                </div>
+            
+                <div class="contact-item">
+                    <div class="email">
+                        <img src="/images/email.png">
+                    </div>
+                    <div class="soratra-email">
+                        <p>richard.cook's@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="ligne">
+        </section>
+        <footer class="footer1">
+            <div class="footer-column">
+              <h4>Liens utiles</h4>
+              <p><a href="#"> Recettes</a>.</p>
+              <p><a href="#"> Qui sommes-nous</a>.</p>
+              <p><a href="#"> Idée et formation de recettes</a>.</p>
+              <p><a href="#"> Contacts</a>.</p>
+              
+               
+            </div>
+            
+            <div class="footer-column">
+              <h4>Contact</h4>
+              <p>Email: info@example.com</p>
+              <p>Phone: +123 456 7890</p>
+              <p>Address: 1234 Example St, City, Country</p>
+            </div>
+            
+            <div class="footer-column newsletter-column">
+              <h4>Subscribe to our Newsletter</h4>
+              <p>Stay updated with the latest news and offers.</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </footer>
+          
+          <?php
+          if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            // Récupération de l'email de l'utilisateur
+            $email = htmlspecialchars($_POST['email']);
+            
+            // Adresse où les inscriptions seront envoyées
+            $to = "fenohasinaherimamy@gmail.com"; // Remplace par ton adresse email
+            $subject = "Nouvelle inscription à la newsletter";
+            $message = "Un nouvel utilisateur s'est inscrit à la newsletter avec l'adresse email : $email";
+          
+            // En-têtes de l'email
+            $headers = "From: no-reply@tonsite.com\r\n"; // Mettre ici une adresse email de ton domaine
+            $headers .= "Reply-To: $email\r\n";
+            $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+          
+            // Envoi de l'email
+            if (mail($to, $subject, $message, $headers)) {
+              echo "Merci pour votre inscription à la newsletter !";
+            } else {
+              echo "Une erreur s'est produite lors de l'envoi. Veuillez réessayer.";
+            }
+          }
+          ?>
+          
+<script>
+      let currentIndex = 0; // Index du groupe d'images actuellement visible
+
+// Fonction pour afficher le groupe de photos basé sur l'index
+function showPhotos(index) {
+    const photos = document.querySelector('.photos-bio'); // Sélectionne le conteneur des photos
+    currentIndex = index; // Met à jour l'index actuel
+    const offset = -450 * index; // Calcule le décalage pour chaque groupe de 3 images
+    photos.style.transform = `translateX(${offset}px)`; // Applique la transformation
+
+    // Met à jour l'état des boutons de pagination
+    const dots = document.querySelectorAll('.pagination button');
+    dots.forEach(dot => dot.classList.remove('active')); // Retire la classe "active" de tous les points
+    dots[index].classList.add('active'); // Ajoute la classe "active" au point correspondant
+}
+
+// Fonction pour initialiser l'affichage de la galerie
+function initGallery() {
+    showPhotos(currentIndex); // Affiche le premier groupe d'images
+}
+
+// Appelle la fonction d'initialisation lorsque la page est chargée
+window.onload = initGallery;
+
+
+</script>
+</body>
+</html>
